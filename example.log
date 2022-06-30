@@ -1,0 +1,530 @@
+CRITICAL:root:127.0.0.1
+CRITICAL:root:127.0.0.1
+CRITICAL:root:127.0.0.1
+INFO:django.utils.autoreload:C:\Users\muham\Desktop\Django\dummy\myfirstapp\custom_middleware.py changed, reloading.
+127.0.0.1 2022-06-30 01:53:55,846
+127.0.0.1 2022-06-30 01:53:58,857
+C:\Users\muham\Desktop\Django\dummy\myfirstapp\custom_middleware.py changed, reloading. 2022-06-30 01:54:11,001
+Ip Address is: 127.0.0.1 and the time is: 2022-06-30 01:54:29,904
+Ip Address is: 127.0.0.1 and the time is: 2022-06-30 01:54:33,176
+Ip Address is: 127.0.0.1 and the time is: 2022-06-30 03:40:56,503
+Ip Address is: 127.0.0.1 and the time is: 2022-06-30 03:41:02,492
+Ip Address is: 127.0.0.1 and the time is: 2022-06-30 03:41:02,639
+Ip Address is: 127.0.0.1 and the time is: 2022-06-30 03:41:07,656
+Ip Address is: 127.0.0.1 and the time is: 2022-06-30 03:41:07,748
+Ip Address is: 127.0.0.1 and the time is: 2022-06-30 03:41:17,478
+Ip Address is: 127.0.0.1 and the time is: 2022-06-30 03:41:17,630
+Ip Address is: 127.0.0.1 and the time is: 2022-06-30 03:41:24,853
+Ip Address is: 127.0.0.1 and the time is: 2022-06-30 03:41:24,971
+Ip Address is: 127.0.0.1 and the time is: 2022-06-30 03:41:29,056
+Ip Address is: 127.0.0.1 and the time is: 2022-06-30 03:41:29,996
+Ip Address is: 127.0.0.1 and the time is: 2022-06-30 21:25:15,585
+Ip Address is: 127.0.0.1 and the time is: 2022-06-30 21:25:18,183
+Ip Address is: 127.0.0.1 and the time is: 2022-06-30 23:21:32,245
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-06-30 23:36:34,799
+Ip Address is: 127.0.0.1 and the time is: 2022-06-30 23:36:43,680
+Ip Address is: Internal Server Error: / and the time is: 2022-06-30 23:37:15,627
+Traceback (most recent call last):
+  File "C:\Users\muham\Desktop\Django\dummy\.venv\lib\site-packages\django_redis\cache.py", line 31, in _decorator
+    return method(self, *args, **kwargs)
+  File "C:\Users\muham\Desktop\Django\dummy\.venv\lib\site-packages\django_redis\cache.py", line 80, in set
+    return self.client.set(*args, **kwargs)
+  File "C:\Users\muham\Desktop\Django\dummy\.venv\lib\site-packages\django_redis\client\default.py", line 185, in set
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 11001 connecting to redis:6379. getaddrinfo failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\muham\Desktop\Django\dummy\.venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\muham\Desktop\Django\dummy\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py", line 14, in index
+    cache.set('stack','overflow',3000)
+  File "C:\Users\muham\Desktop\Django\dummy\.venv\lib\site-packages\django_redis\cache.py", line 38, in _decorator
+    raise e.__cause__
+  File "C:\Users\muham\Desktop\Django\dummy\.venv\lib\site-packages\django_redis\client\default.py", line 175, in set
+    return bool(client.set(nkey, nvalue, nx=nx, px=timeout, xx=xx))
+  File "C:\Users\muham\Desktop\Django\dummy\.venv\lib\site-packages\redis\commands\core.py", line 2220, in set
+    return self.execute_command("SET", *pieces, **options)
+  File "C:\Users\muham\Desktop\Django\dummy\.venv\lib\site-packages\redis\client.py", line 1235, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "C:\Users\muham\Desktop\Django\dummy\.venv\lib\site-packages\redis\connection.py", line 1387, in get_connection
+    connection.connect()
+  File "C:\Users\muham\Desktop\Django\dummy\.venv\lib\site-packages\redis\connection.py", line 617, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 11001 connecting to redis:6379. getaddrinfo failed.
+Ip Address is: 127.0.0.1 and the time is: 2022-06-30 23:37:15,634
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-06-30 23:37:40,411
+Ip Address is: 127.0.0.1 and the time is: 2022-06-30 23:37:46,658
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-06-30 23:51:46,002
+Ip Address is: 127.0.0.1 and the time is: 2022-06-30 23:55:22,189
+Ip Address is: 127.0.0.1 and the time is: 2022-06-30 23:55:23,874
+Ip Address is: 127.0.0.1 and the time is: 2022-06-30 23:55:27,075
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-06-30 23:56:05,279
+Ip Address is: 127.0.0.1 and the time is: 2022-06-30 23:56:11,735
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 00:01:14,342
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 00:01:28,520
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\dummy\settings.py changed, reloading. and the time is: 2022-07-01 02:15:26,763
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:15:31,933
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 02:17:29,364
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:17:33,447
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 02:22:06,777
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:22:24,941
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:22:29,448
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 02:23:13,825
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:23:18,190
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:23:20,476
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:23:21,404
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:23:22,138
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:23:22,692
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:23:23,003
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:23:23,186
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:23:23,384
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:23:23,577
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:23:23,746
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:23:23,944
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:23:24,335
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:23:32,335
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 02:24:28,981
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:24:31,852
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:24:33,495
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:24:34,578
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:24:35,382
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:24:36,040
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:25:27,453
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:27:03,790
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 02:30:20,806
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:31:08,587
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 02:31:36,380
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:31:39,986
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 02:32:00,441
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:32:03,420
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 02:32:25,772
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:32:29,186
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 02:36:54,226
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:37:43,989
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:37:47,911
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 02:38:04,485
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:38:09,650
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 02:38:39,898
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:38:44,959
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:38:46,490
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 02:38:55,031
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:38:59,020
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:38:59,794
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:39:00,484
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:39:01,153
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:39:01,882
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:39:02,535
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:39:03,255
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:39:03,889
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:39:04,298
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:39:04,691
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:39:04,879
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:39:05,266
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:39:05,624
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:39:05,838
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 02:39:19,971
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:39:24,205
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:39:25,345
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 02:40:17,849
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:40:22,334
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 02:42:54,926
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:42:59,157
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 02:43:38,350
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:43:41,692
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:43:42,741
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 02:44:15,594
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:44:19,648
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:44:20,600
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 02:45:07,637
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:45:18,811
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:45:19,511
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:45:20,151
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:45:20,494
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:45:20,706
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:45:20,910
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:45:21,133
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:45:21,301
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:45:21,513
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:45:21,941
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:45:22,349
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:45:22,734
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:45:23,103
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:45:23,488
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:45:24,039
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:45:24,239
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:45:24,443
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:45:24,669
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 02:46:26,050
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:46:35,797
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:46:38,143
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:46:39,979
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:46:41,464
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:46:42,592
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:46:43,476
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:46:44,371
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:46:45,152
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 02:46:57,845
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:47:00,130
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:47:01,477
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:47:02,390
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:47:03,280
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:47:04,029
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:47:05,767
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:47:06,661
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:47:08,342
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 02:48:08,267
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:48:13,358
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 02:48:43,555
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:48:47,238
+Ip Address is: Internal Server Error: / and the time is: 2022-07-01 02:48:48,685
+Traceback (most recent call last):
+  File "C:\Users\muham\Desktop\Django\dummy\.venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\muham\Desktop\Django\dummy\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py", line 26, in index
+    counter = counter + 1
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:48:48,692
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 02:49:34,667
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:49:40,317
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 02:50:27,147
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:50:31,201
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 02:50:49,764
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:50:52,587
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 02:56:04,199
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:56:48,288
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:56:50,954
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:56:58,740
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:56:59,692
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 02:57:29,748
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:57:32,457
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 02:57:33,615
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 03:01:44,327
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:01:50,259
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 03:02:09,014
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:02:11,877
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:02:14,197
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:02:16,209
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:02:17,887
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:02:19,694
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:02:21,216
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:02:22,979
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 03:02:47,131
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:02:50,213
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 03:03:23,203
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:03:25,865
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:03:27,522
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:03:28,895
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:03:30,211
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:03:31,392
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:03:32,782
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:03:33,964
+Ip Address is: Forbidden: / and the time is: 2022-07-01 03:03:33,964
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:03:38,403
+Ip Address is: Forbidden: / and the time is: 2022-07-01 03:03:38,407
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:03:42,334
+Ip Address is: Forbidden: / and the time is: 2022-07-01 03:03:42,340
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:03:43,136
+Ip Address is: Forbidden: / and the time is: 2022-07-01 03:03:43,136
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:03:43,986
+Ip Address is: Forbidden: / and the time is: 2022-07-01 03:03:43,987
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:03:44,720
+Ip Address is: Forbidden: / and the time is: 2022-07-01 03:03:44,720
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:03:45,315
+Ip Address is: Forbidden: / and the time is: 2022-07-01 03:03:45,315
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:03:46,007
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:03:46,663
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:03:47,577
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:03:48,226
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:03:48,946
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:03:49,659
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:03:50,244
+Ip Address is: Forbidden: / and the time is: 2022-07-01 03:03:50,247
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:03:50,871
+Ip Address is: Forbidden: / and the time is: 2022-07-01 03:03:50,871
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:04:09,434
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:04:12,216
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:04:13,944
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:04:15,381
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:04:16,965
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:04:18,360
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:04:19,609
+Ip Address is: Forbidden: / and the time is: 2022-07-01 03:04:19,609
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 03:04:37,339
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:05:04,009
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:05:05,822
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:05:07,714
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:05:09,302
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:05:10,843
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:05:11,995
+Ip Address is: Forbidden: / and the time is: 2022-07-01 03:05:11,995
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 03:06:58,465
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:20:34,199
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 03:21:42,135
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:22:03,790
+Ip Address is: Internal Server Error: / and the time is: 2022-07-01 03:22:10,468
+Traceback (most recent call last):
+  File "C:\Users\muham\Desktop\Django\dummy\.venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\muham\Desktop\Django\dummy\.venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\muham\Desktop\Django\dummy\.venv\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myfirstapp.views.index didn't return an HttpResponse object. It returned None instead.
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:22:10,473
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 03:23:21,143
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:23:36,812
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:23:38,061
+Ip Address is: Forbidden: / and the time is: 2022-07-01 03:23:38,061
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:23:42,790
+Ip Address is: Forbidden: / and the time is: 2022-07-01 03:23:42,797
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 03:24:20,609
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:24:25,255
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:24:26,242
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:24:27,443
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:24:28,495
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:24:29,453
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:24:30,425
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:24:31,340
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:24:32,242
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:24:33,077
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:24:34,052
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:24:34,885
+Ip Address is: Forbidden: / and the time is: 2022-07-01 03:24:34,885
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:24:37,332
+Ip Address is: Forbidden: / and the time is: 2022-07-01 03:24:37,333
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:24:55,388
+Ip Address is: Not Found: /favicon.ico and the time is: 2022-07-01 03:24:55,388
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 03:31:43,083
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:31:49,003
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:34:19,399
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:34:21,272
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 03:34:41,868
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:34:45,735
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 03:35:14,077
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:37:31,752
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\dummy\settings.py changed, reloading. and the time is: 2022-07-01 03:40:35,022
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:40:39,140
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:40:39,259
+Ip Address is: Not Found: /assets/dist/css/bootstrap.min.css and the time is: 2022-07-01 03:40:39,259
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:40:39,266
+Ip Address is: Not Found: /cover.css and the time is: 2022-07-01 03:40:39,269
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:40:41,790
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:40:41,867
+Ip Address is: Not Found: /assets/dist/css/bootstrap.min.css and the time is: 2022-07-01 03:40:41,867
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:40:41,892
+Ip Address is: Not Found: /cover.css and the time is: 2022-07-01 03:40:41,892
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:42:10,993
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:42:11,072
+Ip Address is: Not Found: /assets/dist/css/bootstrap.min.css and the time is: 2022-07-01 03:42:11,072
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:42:11,082
+Ip Address is: Not Found: /cover.css and the time is: 2022-07-01 03:42:11,082
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:42:12,009
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:42:12,068
+Ip Address is: Not Found: /assets/dist/css/bootstrap.min.css and the time is: 2022-07-01 03:42:12,068
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:42:12,083
+Ip Address is: Not Found: /cover.css and the time is: 2022-07-01 03:42:12,083
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:42:12,753
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:42:12,849
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:42:12,850
+Ip Address is: Not Found: /cover.css and the time is: 2022-07-01 03:42:12,850
+Ip Address is: Not Found: /assets/dist/css/bootstrap.min.css and the time is: 2022-07-01 03:42:12,852
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:42:13,391
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:42:13,517
+Ip Address is: Not Found: /assets/dist/css/bootstrap.min.css and the time is: 2022-07-01 03:42:13,517
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:42:13,533
+Ip Address is: Not Found: /cover.css and the time is: 2022-07-01 03:42:13,533
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:42:14,050
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:42:14,156
+Ip Address is: Not Found: /assets/dist/css/bootstrap.min.css and the time is: 2022-07-01 03:42:14,156
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:42:14,181
+Ip Address is: Not Found: /cover.css and the time is: 2022-07-01 03:42:14,181
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:42:14,640
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:42:14,714
+Ip Address is: Not Found: /assets/dist/css/bootstrap.min.css and the time is: 2022-07-01 03:42:14,714
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:42:14,728
+Ip Address is: Not Found: /cover.css and the time is: 2022-07-01 03:42:14,729
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:42:15,293
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:42:15,407
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:42:15,412
+Ip Address is: Not Found: /assets/dist/css/bootstrap.min.css and the time is: 2022-07-01 03:42:15,407
+Ip Address is: Not Found: /cover.css and the time is: 2022-07-01 03:42:15,413
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:42:15,944
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:42:16,049
+Ip Address is: Not Found: /assets/dist/css/bootstrap.min.css and the time is: 2022-07-01 03:42:16,051
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:42:16,067
+Ip Address is: Not Found: /cover.css and the time is: 2022-07-01 03:42:16,067
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:42:16,572
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:42:16,706
+Ip Address is: Not Found: /assets/dist/css/bootstrap.min.css and the time is: 2022-07-01 03:42:16,706
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:42:16,724
+Ip Address is: Not Found: /cover.css and the time is: 2022-07-01 03:42:16,724
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:42:17,242
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:42:17,346
+Ip Address is: Not Found: /assets/dist/css/bootstrap.min.css and the time is: 2022-07-01 03:42:17,346
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:42:17,366
+Ip Address is: Not Found: /cover.css and the time is: 2022-07-01 03:42:17,366
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:42:17,940
+Ip Address is: Forbidden: / and the time is: 2022-07-01 03:42:17,941
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:42:18,581
+Ip Address is: Forbidden: / and the time is: 2022-07-01 03:42:18,583
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 03:49:03,382
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:08,605
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:08,726
+Ip Address is: Not Found: /assets/dist/css/bootstrap.min.css and the time is: 2022-07-01 03:49:08,726
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:08,741
+Ip Address is: Not Found: /cover.css and the time is: 2022-07-01 03:49:08,745
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:21,418
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:21,531
+Ip Address is: Not Found: /assets/dist/css/bootstrap.min.css and the time is: 2022-07-01 03:49:21,531
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:21,548
+Ip Address is: Not Found: /cover.css and the time is: 2022-07-01 03:49:21,548
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:22,354
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:22,433
+Ip Address is: Not Found: /assets/dist/css/bootstrap.min.css and the time is: 2022-07-01 03:49:22,433
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:22,444
+Ip Address is: Not Found: /cover.css and the time is: 2022-07-01 03:49:22,444
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:23,227
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:23,286
+Ip Address is: Not Found: /assets/dist/css/bootstrap.min.css and the time is: 2022-07-01 03:49:23,286
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:23,306
+Ip Address is: Not Found: /cover.css and the time is: 2022-07-01 03:49:23,307
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:23,954
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:24,074
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:24,078
+Ip Address is: Not Found: /cover.css and the time is: 2022-07-01 03:49:24,077
+Ip Address is: Not Found: /assets/dist/css/bootstrap.min.css and the time is: 2022-07-01 03:49:24,079
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:24,765
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:24,883
+Ip Address is: Not Found: /assets/dist/css/bootstrap.min.css and the time is: 2022-07-01 03:49:24,883
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:24,909
+Ip Address is: Not Found: /cover.css and the time is: 2022-07-01 03:49:24,910
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:25,523
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:25,608
+Ip Address is: Not Found: /assets/dist/css/bootstrap.min.css and the time is: 2022-07-01 03:49:25,609
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:25,626
+Ip Address is: Not Found: /cover.css and the time is: 2022-07-01 03:49:25,626
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:26,314
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:26,432
+Ip Address is: Not Found: /assets/dist/css/bootstrap.min.css and the time is: 2022-07-01 03:49:26,432
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:26,438
+Ip Address is: Not Found: /cover.css and the time is: 2022-07-01 03:49:26,439
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:27,095
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:27,225
+Ip Address is: Not Found: /assets/dist/css/bootstrap.min.css and the time is: 2022-07-01 03:49:27,225
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:27,241
+Ip Address is: Not Found: /cover.css and the time is: 2022-07-01 03:49:27,243
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:27,851
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:28,010
+Ip Address is: Not Found: /assets/dist/css/bootstrap.min.css and the time is: 2022-07-01 03:49:28,010
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:28,033
+Ip Address is: Not Found: /cover.css and the time is: 2022-07-01 03:49:28,034
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:28,649
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:28,777
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:28,778
+Ip Address is: Not Found: /assets/dist/css/bootstrap.min.css and the time is: 2022-07-01 03:49:28,777
+Ip Address is: Not Found: /cover.css and the time is: 2022-07-01 03:49:28,779
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:29,454
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:29,578
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:29,580
+Ip Address is: Not Found: /assets/dist/css/bootstrap.min.css and the time is: 2022-07-01 03:49:29,579
+Ip Address is: Not Found: /cover.css and the time is: 2022-07-01 03:49:29,581
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:30,495
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:30,620
+Ip Address is: Not Found: /assets/dist/css/bootstrap.min.css and the time is: 2022-07-01 03:49:30,620
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:30,636
+Ip Address is: Not Found: /cover.css and the time is: 2022-07-01 03:49:30,636
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:31,318
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:31,436
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:31,438
+Ip Address is: Not Found: /assets/dist/css/bootstrap.min.css and the time is: 2022-07-01 03:49:31,437
+Ip Address is: Not Found: /cover.css and the time is: 2022-07-01 03:49:31,439
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:32,069
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:32,164
+Ip Address is: Not Found: /assets/dist/css/bootstrap.min.css and the time is: 2022-07-01 03:49:32,164
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:32,184
+Ip Address is: Not Found: /cover.css and the time is: 2022-07-01 03:49:32,185
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:32,828
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:32,962
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:32,963
+Ip Address is: Not Found: /assets/dist/css/bootstrap.min.css and the time is: 2022-07-01 03:49:32,963
+Ip Address is: Not Found: /cover.css and the time is: 2022-07-01 03:49:32,963
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:33,578
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:33,681
+Ip Address is: Not Found: /assets/dist/css/bootstrap.min.css and the time is: 2022-07-01 03:49:33,682
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:33,701
+Ip Address is: Not Found: /cover.css and the time is: 2022-07-01 03:49:33,701
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:34,434
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:34,498
+Ip Address is: Not Found: /assets/dist/css/bootstrap.min.css and the time is: 2022-07-01 03:49:34,498
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:34,520
+Ip Address is: Not Found: /cover.css and the time is: 2022-07-01 03:49:34,520
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:35,184
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:35,316
+Ip Address is: Not Found: /assets/dist/css/bootstrap.min.css and the time is: 2022-07-01 03:49:35,316
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:35,332
+Ip Address is: Not Found: /cover.css and the time is: 2022-07-01 03:49:35,336
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:36,028
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:36,164
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:36,165
+Ip Address is: Not Found: /assets/dist/css/bootstrap.min.css and the time is: 2022-07-01 03:49:36,164
+Ip Address is: Not Found: /cover.css and the time is: 2022-07-01 03:49:36,166
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:36,865
+Ip Address is: Forbidden: / and the time is: 2022-07-01 03:49:36,868
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:49:37,560
+Ip Address is: Forbidden: / and the time is: 2022-07-01 03:49:37,560
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\dummy\settings.py changed, reloading. and the time is: 2022-07-01 03:52:06,469
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:52:35,478
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:52:35,737
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:52:35,738
+Ip Address is: Not Found: /assets/dist/css/bootstrap.min.css and the time is: 2022-07-01 03:52:35,737
+Ip Address is: Not Found: /cover.css and the time is: 2022-07-01 03:52:35,740
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:52:38,457
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:52:38,583
+Ip Address is: Not Found: /assets/dist/css/bootstrap.min.css and the time is: 2022-07-01 03:52:38,583
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:52:38,603
+Ip Address is: Not Found: /cover.css and the time is: 2022-07-01 03:52:38,603
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\dummy\settings.py changed, reloading. and the time is: 2022-07-01 03:53:49,603
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:53:55,455
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:53:55,573
+Ip Address is: Not Found: /assets/dist/css/bootstrap.min.css and the time is: 2022-07-01 03:53:55,575
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:53:55,578
+Ip Address is: Not Found: /cover.css and the time is: 2022-07-01 03:53:55,578
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:53:56,753
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:53:56,853
+Ip Address is: Not Found: /assets/dist/css/bootstrap.min.css and the time is: 2022-07-01 03:53:56,854
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:53:56,871
+Ip Address is: Not Found: /cover.css and the time is: 2022-07-01 03:53:56,871
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 03:55:40,246
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:55:46,333
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:55:46,494
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:55:46,496
+Ip Address is: Not Found: /assets/dist/css/bootstrap.min.css and the time is: 2022-07-01 03:55:46,495
+Ip Address is: Not Found: /cover.css and the time is: 2022-07-01 03:55:46,496
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:55:49,983
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:55:50,066
+Ip Address is: Not Found: /assets/dist/css/bootstrap.min.css and the time is: 2022-07-01 03:55:50,066
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:55:50,085
+Ip Address is: Not Found: /cover.css and the time is: 2022-07-01 03:55:50,085
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:55:51,310
+Ip Address is: Forbidden: / and the time is: 2022-07-01 03:55:51,311
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:56:45,492
+Ip Address is: Forbidden: / and the time is: 2022-07-01 03:56:45,499
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:56:47,330
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:56:47,500
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:56:47,500
+Ip Address is: Not Found: /assets/dist/css/bootstrap.min.css and the time is: 2022-07-01 03:56:47,500
+Ip Address is: Not Found: /cover.css and the time is: 2022-07-01 03:56:47,502
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:56:49,198
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:56:49,307
+Ip Address is: Not Found: /assets/dist/css/bootstrap.min.css and the time is: 2022-07-01 03:56:49,307
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:56:49,326
+Ip Address is: Not Found: /cover.css and the time is: 2022-07-01 03:56:49,328
+Ip Address is: 127.0.0.1 and the time is: 2022-07-01 03:56:50,629
+Ip Address is: Forbidden: / and the time is: 2022-07-01 03:56:50,629
+Ip Address is: C:\Users\muham\Desktop\Django\dummy\myfirstapp\views.py changed, reloading. and the time is: 2022-07-01 03:57:05,257
