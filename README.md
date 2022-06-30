@@ -26,4 +26,4 @@ class MyCustomMiddleware(object):
  
  the log file is made named "example.log"
  
- ![This is an image](/assets/images/electrocat.png)
+ ![This is an image](/Capture.jpg)
