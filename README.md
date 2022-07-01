@@ -7,6 +7,7 @@ it is done in seperate middleware and middleware was added in settings.py in mid
 MIDDLEWARE = [
     ........
     'myfirstapp.custom_middleware.MyCustomMiddleware',
+    'myfirstapp.custom_middleware2.CacheIp' 
     ........
 ]
 ```
@@ -70,7 +71,7 @@ else:
 ```
 
 ## Part 3
-Most of this part was done in views.py
+Most of this part was done in custom_middleware2.py
 
 i have created 3 users group, using python data "sets", because sets donot allow duplicates
 ```
@@ -87,4 +88,4 @@ if cache.get(request.META['REMOTE_ADDR']) == 'diamond':
         else:
             return render(request,'index.html')
 ```
-above mentioned is one block of if else code all the remaining code is in views.py file
+above mentioned is one block of if else code all the remaining code is in custom_middleware2.py file
