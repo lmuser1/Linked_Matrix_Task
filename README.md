@@ -7,7 +7,6 @@ it is done in seperate middleware and middleware was added in settings.py in mid
 MIDDLEWARE = [
     ........
     'myfirstapp.custom_middleware.MyCustomMiddleware',
-    'myfirstapp.custom_middleware2.CacheIp' 
     ........
 ]
 ```
@@ -89,3 +88,14 @@ if cache.get(request.META['REMOTE_ADDR']) == 'diamond':
             return render(request,'index.html')
 ```
 above mentioned is one block of if else code all the remaining code is in custom_middleware2.py file
+
+last thing to add this middleware in settings.py
+
+```
+MIDDLEWARE = [
+    ........
+    'myfirstapp.custom_middleware.MyCustomMiddleware',
+    'myfirstapp.custom_middleware2.CacheIp' 
+    ........
+]
+```
